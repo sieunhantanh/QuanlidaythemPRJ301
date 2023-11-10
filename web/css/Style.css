@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style cho tiêu đề h1 */
+.header {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Style cho form đăng nhập */
+.Dangnhap {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style cho input fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+}
+
+/* Style cho nút đăng nhập */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style cho thông báo lỗi */
+.error1 {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
